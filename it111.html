@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Sciatzy's Webpage </title>
+</head>
+
+
+<style>
+   html {
+   scroll-behavior: smooth;
+   }
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   }
+
+   body {
+   font-family: 'Poppins', sans-serif;
+   }
+   .banner{
+      width: 100%;
+      height: 100vh;
+      background-color: black;
+      background-size: cover;
+      background-position: center;
+  }
+  .navbar{
+   width: 85%;
+   margin: auto;
+   padding: 35px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: fixed;
+   top: 0;
+   z-index: 1000;
+  }
+  .navbar ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0 20px;
+   position: relative;
+  }
+  .navbar ul li a{
+   text-decoration: none;
+   color: white;
+   text-transform: uppercase;
+  }
+  .navbar ul li::after{
+   content: '';
+   height: 3px;
+   width: 0;
+   background: crimson;
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   transition: 0.5s;
+  }
+  .navbar ul li:hover::after{
+   width: 100%;
+  }
+
+  .c-container {
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+    }
+
+  .c-container div {
+     flex: 1;
+     text-align: center;
+     background-color: black;
+     padding: 1.5rem;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     transition: background-color 0.3s, color 0.3s;
+    }
+
+  .c-container div:hover {
+     background-color: crimson;
+     color: black;
+    }
+
+  .c-container img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    object-fit: contain;
+    max-height: 300px;
+    }
+
+   .c-container p {
+   color: black;
+   line-height: 2.0;
+  }
+
+  footer {
+   background-color: black;
+   color: crimson;
+   text-align: center;
+   padding: 20px;
+   bottom: 0;
+   width: 100%;
+  }
+   footer p {
+   text-align: center;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+        }
+
+
+</style>
+
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+           <ul>
+              <li><a href="index.html#it111">Home Page</a></li>
+              <li><a href="it111.html">IT111 Blog</a></li>
+              <li><a href="flex.html">Flex Page</a></li>
+           </ul>
+        </div>
+
+    <div class="c-container">
+
+        <div class="c1">
+            <h3>LESSON 1</h3>
+            <img src="img/lesson 1.jpg" alt="Lesson 1 Image">
+            <p>In lesson 1 of the Introduction to Computing, I learned that computing 
+              is fundamentally about the systematic processing and analysis of information to 
+              solve problems and perform various tasks efficiently.</p>
+        </div>
+     
+        <div class="c2">
+            <h3>LESSON 2</h3>
+            <img src="img/lesson 2.jpg" alt="Lesson 2 Image">
+            <p>In Lesson 2 of the Introduction to Computing, we delved into the various professions
+              and careers within the field. I learned that the world of IT is incredibly expansive, offering
+              a multitude of opportunities. It's fascinating to see the diverse range of jobs available. I'm 
+              particularly drawn to the idea of becoming a software engineer someday, given the exciting possibilities 
+              within this dynamic field.</p>
+        </div>
+     
+        <div class="c3">
+            <h3>LESSON 3</h3>
+            <img src="img/lesson 3.jpg" alt="Lesson 3 Image">
+            <p>In lessons 3 and 4 of the Introduction to Computing, I learned how computers deal
+                 with data through steps like input, processing, output, and storage. </p>
+        </div>
+     
+        <div class="c4">
+            <h3>LESSON 4</h3>
+            <img src="img/lesson 4.jpg" alt="Lesson 4 Image">
+            <p> In lessons 4 of the Introduction to Computing, I got
+              to know about the parts of computer systems, like the CPU, memory, and storage stuff.
+              These lessons gave me the basics of how computers work to handle information.</p>
+        </div>
+
+        <div class="c4">
+          <h3>LESSON 5</h3>
+          <img src="img/lesson 5.jpg" alt="Lesson 4 Image">
+          <p> In lessons 5 of the Introduction to Computing, learning 
+              about computer security basics was pretty cool. 
+              I figured out how crucial it is to have strong passwords, 
+              keep everything updated, and use stuff like firewalls and
+              antivirus programs to stay safe from computer threats. 
+              Also, I got the lowdown on watching out for phishing scams and 
+              why encrypting our data is a smart move. 
+              It's all about keeping our digital stuff secure.</p>
+      </div>
+
+      <div class="c4">
+        <h3>LESSON 6</h3>
+        <img src="img/lesson 6.jpg" alt="Lesson 4 Image">
+        <p> In lessons 6 of the Introduction to Computing, In my Introduction to Computing class, 
+           I've learned the basics of HTML and CSS. HTML helps create the structure of a webpage, 
+           like headings and images, while CSS styles things up with colors and layouts. This is also 
+           a highlight for me because this lesson challenged me, but it's also my favorite lesson.
+           I'm not a pro yet, but I've got the hang of making simple web pages. I know how to structure 
+           content in HTML and add some cool styles with CSS. Still, there's a lot more to explore,
+           like making websites work on all devices and adding fancy features. Excited to learn more!</p>
+    </div>
+
+     
+     </div>
+
+</body>
+<footer>
+    <p> &copy;  2023 Sciatzy Rabina</p>
+ </footer>
+ 
+ </html>
